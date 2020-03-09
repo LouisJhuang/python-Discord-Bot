@@ -1,6 +1,6 @@
 # python-DiscordBot
 Discord bot with python
-* Discord Bot自動偵測指令回話，e.g, 輸入：!ping
+* Discord Bot自動偵測指令回話 e.g, 輸入：!ping
 
 # Installation
 ###
