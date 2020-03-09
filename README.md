@@ -8,7 +8,7 @@ Discord Bot in python
 pip install discord.py
 ```
 
-# Environment
+# Requirements
 ###
 ```
 python 3.7.3
