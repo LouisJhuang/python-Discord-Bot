@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import random
 import json
-import keep_alive
+# import keep_alive
 
 
 # 讀檔案
@@ -111,5 +111,5 @@ async def 喵內(ctx):
 
 # 執行bot
 if __name__ == '__main__':
-    keep_alive.keep_alive()
+    # keep_alive.keep_alive()
     bot.run(jdata['TOKEN'])
