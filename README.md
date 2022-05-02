@@ -1,5 +1,5 @@
 # python-DiscordBot
-Discord Bot witn python
+Discord Bot with python
 * Discord Bot自動偵測指令回話 e.g, 輸入：!ping
 
 # Installation
@@ -12,6 +12,9 @@ pip install discord.py
 ###
 ```
 python 3.7.3
+discord 1.0.1
+discord.py 1.3.4
+async-timeout 3.0.1
 ```
 
 # Resources
