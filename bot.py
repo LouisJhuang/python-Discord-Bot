@@ -8,9 +8,9 @@ import keep_alive
 # 讀檔案
 with open('setting.json','r',encoding='UTF8') as jfile:
     jdata = json.load(jfile)
-    
-# 呼叫 bot前面加什麼字串
-# intents 是我們要求的權限
+
+# command_prefix = 呼叫 bot前面加什麼字串
+# intents = 我們要求的權限
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
