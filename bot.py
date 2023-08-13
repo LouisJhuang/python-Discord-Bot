@@ -10,14 +10,16 @@ with open('setting.json','r',encoding='UTF8') as jfile:
     jdata = json.load(jfile)
     
 # 呼叫 bot前面加什麼字串
-bot = commands.Bot(command_prefix='!')
+# intents 是我們要求的權限
+intents = discord.Intents.default()
+intents.message_content = True
+bot = commands.Bot(command_prefix='!', intents=intents)
 
 
 # bot 啟動事件
 @bot.event
 async def on_ready():
     print(">> bot is online <<")
-
 
 
 # 以下對話指令, bot 指令
